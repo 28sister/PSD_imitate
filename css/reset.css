@@ -23,7 +23,7 @@ table{border-collapse:collapse;border-spacing:0;}
 .commonw{width:1200px;height:100%;margin:0 auto;}
 .header_top .language{float:left;width:20%;text-align:left;}
 .header_top .top_contact{float:right;width:80%; text-align:right;}
-.header_top a{display:inline-block; font-size:14px;height:13px;line-height:13px;padding:0 5px;border-right:1px solid #6d6d6d;}
+.header_top a{display:inline-block; font-size:14px;height:13px;line-height:13px;padding:0 10px;border-right:1px solid #6d6d6d;}
 #header .noneborder{border:none;}
 .header_main{height:80px;}
 .header_main h2{float:left;text-indent:-999px;background:url(../images/logobg.png) no-repeat;width:350px;height:50px;margin:15px 0;color:#fff;}
