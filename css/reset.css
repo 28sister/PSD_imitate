@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/*重置信息*/
+html,body,div,span,h1,h2,h3,img,a,form,input,select,option,ul,ol,li,dl,dt,dd,i,p,h2,h3,h4,h5,b,form,label{
+	margin: 0;
+	padding: 0;
+}
+body{color:#444;font:14px/20px "Microsoft Yahei","Arial";text-align:center;}
+ol,ul,dl,dt,dd {list-style: none;}
+a{color:#323232;text-decoration:none;}
+a:hover{color:#e60612;}
+input,img{border:none;}
+i,strong,b,em{font-style:normal;}
+h2,h3,h4,h5{font-weight:bold;}
+table{border-collapse:collapse;border-spacing:0;}
+
+/*清除浮动*/
+.clearfix {*zoom: 1; } 
+.clearfix:before,.clearfix:after{display:table; line-height: 0; content: "";} 
+.clearfix:after {clear: both; } 
+
+#header{width:100%;position:fixed;top:0;left:0;z-index:9999;background:#fff;}
+.header_top{height:30px;line-height:30px;background:#f0f0f0;}
+.commonw{width:1200px;height:100%;margin:0 auto;}
+.header_top .language{float:left;width:20%;text-align:left;}
+.header_top .top_contact{float:right;width:80%; text-align:right;}
+.header_top a{display:inline-block; font-size:14px;height:13px;line-height:13px;padding:0 5px;border-right:1px solid #6d6d6d;}
+#header .noneborder{border:none;}
+.header_main{height:80px;}
+.header_main h2{float:left;text-indent:-999px;background:url(../images/logobg.png) no-repeat;width:350px;height:50px;margin:15px 0;color:#fff;}
+.header_main .head_search{float:right;width:480px;height:36px;margin-top:22px;}
+.head_search .tel24{float:left;width:245px;height:36px;}
+.tel24 i,.broadcast .scrollDiv,.broadcast .bo_right a.closebtn{background:url(../images/llh_home_iconBg1.png) no-repeat;}
+.tel24 i{display:block;float:left;background-position:0 -212px;width:45px;height:36px;}
+.tel24 a{display:block;float:left;height:36px;line-height:36px;font-size:20px;color:#003179;}
+.head_search .searchform{float:left;width:235px;height:36px;}
+.searchform .text1{width:183px;height:34px;line-height:34px;padding:0 5px; border-width:1px 0 1px 1px; border-style:solid none solid solid; border-color:#dedede;}
+.fleft{float:left;}
+.searchform .searchbtn{width:36px;height:36px;background:url(../images/trs_q_headsearch.png) no-repeat;}
+.navlink{background:#004790;width:100%;height:40px;}
+.navlink li{position:relative;}
+.navlink li a{display:block;float:left;padding:0 54.5px;height:40px;line-height:40px;color:#eaffed;font-size:16px;}
+.navlink li.active a,.navlink a:hover{background:#a81410;}
+.dropdown{display:none;}
+.navlink li .hidelist{position:absolute;top:40px;box-shadow:0 0 16px #333;padding:20px 0 10px 0;background:#fff;}
+.navlink li .linkhide,.navlink li .linkhide2{left:172px;width:1023px;}
+.navlink .hidelist dl{float:left;width:110px;padding-left:32px;}
+.navlink .hidelist dt{border-bottom:2px solid #a7bbce;color:#626262;font-weight:bold;}
+.navlink .hidelist dd{width:100%;}
+.navlink .hidelist a{float:none;color:#555;font-size:14px;height:32px;line-height:32px;text-align:left;padding:0;}
+.navlink .hidelist a:hover{color:#013473;background:none;}
+.navlink .hidelist dd:not(:last-child){border-bottom:1px solid #e0dfdf;}
+.navlink .hidelist dd#more{border-bottom:none;}
+.navlink .hidelist dd#more a{color:#013473;}
+.navlink li .linkhide2 dl{padding-left:29px;}
+.navlink li .linkhide2 dl.hide1{width:130px;}
+.navlink li .linkhide3{left:518px;width:513px;}
+.navlink .linkhide3 dl{width:465px;padding-left:36px;}
+.navlink .linkhide3 dd{float:left;width:130px;margin-right:25px;}
+.navlink li .linkhide4{left:691px;width:513px;}
+.navlink .linkhide4 dl{width:145px;padding-left:20px;}
+.navlink .linkhide4 dl.hide2{width:110px;}
+.navlink .linkhide4 dl.hide3,.navlink li .linkhide5 dl.hide4{width:180px;}
+.navlink li .linkhide5{right:5px;width:680px;}
+
+.broadcast{background:url(../images/llh_notice_bg.png);width:100%;height:30px;position:fixed;top:150px;left:0;text-align:left; z-index:100;}
+.broadcast .scrollDiv{float:left;height:30px;line-height:30px;overflow:hidden;background-position:-190px -265px;width:950px;}
+.scrollDiv li a{display:block; height:30px;color:#fff;padding-left:45px;}
+.broadcast .bo_right{float:right;height:30px;width:210px;margin-left:40px;}
+.broadcast .bo_right a{display:inline-block; float:left;height:30px;line-height:30px;color:#fff;}
+.broadcast .bo_right a.closebtn{background-position:-200px -217px;width:27px;height:30px;margin-left:30px;}
+

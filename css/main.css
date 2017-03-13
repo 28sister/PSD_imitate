@@ -1,0 +1,198 @@
+﻿@charset "utf-8";
+html {overflow:hidden; width:100%;height:100%;}
+
+/* 登录添加同业 */
+.login{position:absolute;top:0%;right:45px;width:225px;height:223px;z-index:102;}
+.login .tit{width:100%;height:40px;display:block;background:url(../images/llh_home_iconBg1.png) 0 0 no-repeat;}
+.login .list{width:100%;height:200px;display:block;background:#fff;overflow:hidden;}
+.login .list ul{width:100%;height:200px;overflow:hidden;}
+.login .list ul li{width:195px;height:50px;overflow:hidden;padding-left:30px;}
+.login .list ul li:hover{background:#e4ecf4;}
+.login .list ul li a{display:block;width:150px;height:50px;overflow:hidden;padding-left:25px;background:url(../images/llh_home_iconBg1.png) no-repeat 0 50px;font:18px/50px Microsoft Yahei;}
+.login .list ul li a:hover{color:#003473;}
+.login .list ul li.icon_01 a{background-position:-192px -303px;}
+.login .list ul li.icon_02 a{background-position:-192px -100px;}
+.login .list ul li.icon_03 a{background-position:-192px -150px;}
+.login .list ul li.icon_04 a{background-position:-190px -469px;}
+.login .list ul li.icon_01 a:hover{background-position:-193px -53px;}
+.login .list ul li.icon_02 a:hover{background-position:-192px -355px;}
+.login .list ul li.icon_03 a:hover{background-position:-192px -411px;}
+.login .list ul li.icon_04 a:hover{background-position:-190px -525px;} 
+
+/* 滚动按钮 */
+.scollBtn{position:absolute;top:1%;right:0;width:30px;height:250px;z-index:102;}
+.scollBtn a{width:100%;height:48px;background:url(../images/llh_home_iconBg1.png) 0 0 no-repeat;display:block;}
+.scollBtn a{background-position:0px -51px;}
+.scollBtn a:hover,.scollBtn a.active{background-position:0px -102px;}
+
+/* 首页主体 */
+.mainPageDiv,.mainPage,.home{width:100%;height:100%; text-align:left;}
+.main_body{position:relative;}
+.flDiv{width:1200px;margin:0 auto;height:100%;overflow:hidden;position: relative;display:block;top:32%;}
+.main_content{width:100%; padding-bottom:0px; margin:0 auto;min-height:0;}
+.mainPageDiv{position: absolute;top: 0;left: 0;overflow:hidden;}
+.mainPage{overflow: hidden;position: relative;z-index: 1;}
+
+.pageBg1 {padding-bottom: 50px;background:#FFF url(../images/pagebg/pagebg1.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;}
+.pageBg2 {padding-bottom: 50px;background:#FFF url(../images/pagebg/pagebg2.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;}
+.pageBg3 {padding-bottom: 50px;background:#FFF url(../images/pagebg/pagebg3.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;}
+.pageBg4 {padding-bottom: 50px;background:#FFF url(../images/pagebg/pagebg4.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;}
+.pageBg5 {padding-bottom: 50px;background:#FFF url(../images/pagebg/pagebg5.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;}
+
+.mainPage{padding-bottom:0;}
+
+
+.contentImg{width:100%;height:100%; overflow:hidden;position:absolute;top:0;z-index: 97;}
+.contentImg img{width:100%;height:100%; z-index: 97;}
+/* 中间显示文字内容 */
+.contentDiv{width:1200px;margin:0 auto;height:100%; overflow:hidden;position: relative;z-index: 99; }
+
+.contentDiv .textImg{width:100%;overflow:hidden;position:absolute;top:30%;left:0;}
+.contentDiv .textImg img{width:528px;height:208px;z-index:100;}
+.contentDiv .textImg span{width:150px;height:36px;line-height:36px;display:block;margin-top:-55px;z-index:101;}
+.contentDiv .textImg span a{float:right;width:122px;height:36px;padding-left:28px;display:block;text-align:center;color:#fff;font-size:16px;font-family:Microsoft Yahei;background:#1b62b9 url(../images/llh_home_iconBg1.png) 15px -270px no-repeat;}
+.contentDiv .text{width:100%;overflow:hidden;position:absolute;top:66%;left:0;}
+.contentDiv .text .kstd{width:50%;height:100%;overflow:hidden;font-family:Microsoft Yahei;}
+.contentDiv .text .kstd .tit{width:100%;height:40px;line-height:40px;font-size:18px;color:#004790;font-weight:bold;overflow:hidden;}
+.contentDiv .text .kstd .tit img{padding-left:2px;width:86px;height:17px;}
+.contentDiv .text .kstd ul{width:100%;height:80px;overflow:hidden;}
+.contentDiv .text .kstd ul li{width:81px;height:80px;float:left;padding-right:15px;}
+.contentDiv .text .kstd ul li a{color:#054493;font-size:14px;}
+.contentDiv .text .kstd ul li a img{width:45px;height:45px;padding: 3px 18px;}
+.contentDiv .text .kstd ul li a img.img{display:none;}
+.contentDiv .text .kstd ul li a p{width:81px;height:30px;text-align:center;line-height:30px;}
+.img_bg{width:100%;margin:0 auto;height:100%; overflow:hidden;position: absolute;z-index: 98; bottom:0;right:0;}
+.pageBg2 .img_bg img{width:600px;height:auto;position:absolute;right:16%;bottom:-25%;}
+.pageBg3 .img_bg img{width:680px;height:auto;position:absolute;right:17%;bottom:-27%;}
+
+@media screen and (max-height:600px){
+.contentDiv .textImg{width:100%;overflow:hidden;position:absolute;top:35%;left:0;}
+.contentDiv .textImg img{width:428px;height:auto;z-index:100;}
+.contentDiv .textImg span{width:150px;height:105px;line-height:36px;display:block;margin-top: -105px;margin-left: 500px;z-index:101;}
+.contentDiv .textImg span a{width:122px;height:36px;padding-left:28px;display:block;text-align:center;color:#fff;font-size:16px;font-family:Microsoft Yahei;background:#1b62b9 url(../images/llh_home_iconBg1.png) 15px -270px no-repeat;}
+.contentDiv .text{width:100%;overflow:hidden;position:absolute;top:66%;left:0;}
+.contentDiv .text .kstd{width:50%;height:100%;overflow:hidden;font-family:Microsoft Yahei;}
+.contentDiv .text .kstd .tit{width:100%;height:40px;line-height:40px;font-size:18px;color:#004790;font-weight:bold;overflow:hidden;}
+.contentDiv .text .kstd .tit img{padding-left:2px;width:86px;height:17px;}
+.contentDiv .text .kstd ul{width:100%;height:80px;overflow:hidden;}
+.contentDiv .text .kstd ul li{width:81px;height:80px;float:left;padding-right:15px;}
+.contentDiv .text .kstd ul li a{color:#054493;font-size:14px;}
+.contentDiv .text .kstd ul li a img{width:45px;height:45px;padding: 3px 18px;}
+.contentDiv .text .kstd ul li a img.img{display:none;}
+.contentDiv .text .kstd ul li a p{width:81px;height:30px;text-align:center;line-height:30px;}
+.img_bg{width:100%;margin:0 auto;height:100%; overflow:hidden;position: absolute;z-index: 98; bottom:0;right:0;}
+.pageBg2 .img_bg img{width:550px;height:auto;position:absolute;right:16%;bottom:-30%;}
+.pageBg3 .img_bg img{width:680px;height:auto;position:absolute;right:17%;bottom:-44%;}
+}
+/* 大于1200 */
+@media screen and (min-height:610px) and (min-width:1200px) and (max-width:1450px) {
+.contentDiv .textImg{width:100%;overflow:hidden;position:absolute;top:30%;left:0;}
+.contentDiv .textImg img{width:528px;height:208px;z-index:100;}
+.contentDiv .textImg span{width:150px;height:36px;line-height:36px;display:block;margin-top:-55px;position:absolute;z-index:101;}
+.contentDiv .textImg span a{float:right;width:122px;height:36px;padding-left:28px;display:block;text-align:center;color:#fff;font-size:16px;font-family:Microsoft Yahei;background:#1b62b9 url(../images/llh_home_iconBg1.png) 15px -270px no-repeat;}
+.contentDiv .text{width:100%;overflow:hidden;position:absolute;top:66%;left:0;}
+.contentDiv .text .kstd{width:50%;height:100%;overflow:hidden;font-family:Microsoft Yahei;}
+.contentDiv .text .kstd .tit{width:100%;height:40px;line-height:40px;font-size:18px;color:#004790;font-weight:bold;overflow:hidden;}
+.contentDiv .text .kstd .tit img{padding-left:2px;width:86px;height:17px;}
+.contentDiv .text .kstd ul{width:100%;height:80px;overflow:hidden;}
+.contentDiv .text .kstd ul li{width:81px;height:80px;float:left;padding-right:15px;}
+.contentDiv .text .kstd ul li a{color:#054493;font-size:14px;}
+.contentDiv .text .kstd ul li a img{width:45px;height:45px;padding: 3px 18px;}
+.contentDiv .text .kstd ul li a img.img{display:none;}
+.contentDiv .text .kstd ul li a p{width:81px;height:30px;text-align:center;line-height:30px;}
+.img_bg{width:100%;margin:0 auto;height:100%; overflow:hidden;position: absolute;z-index: 98; bottom:0;right:0;}
+.pageBg2 .img_bg img{width:600px;height:auto;position:absolute;right:16%;bottom:-180px;}
+.pageBg3 .img_bg img{width:680px;height:auto;position:absolute;right:17%;bottom:-200px;}
+}
+/* 大于等于1680 */
+@media screen and (min-width:1480px) and (max-width:1680px){
+.reprot .notice .closeBtn{width:27px;height:30px;background:url(../images/llh_home_iconBg1.png) -200px -217px no-repeat;float:right;margin-right:117px;}
+.reprot .btn_box .btn_more{width:55px;height:30px;line-height: 30px;color:#fff;float: right;margin-right:180px;}
+.login{position:absolute;top:0%;right:55px;width:260px;height:257px;z-index:102;}
+.login{position:absolute;top:0%;right:55px;width:260px;height:257px;z-index:102;}
+.login .tit{width:100%;height:44px;display:block;background:url(login_1.png) 0 0 no-repeat;}
+.login .list{width:100%;height:240px;display:block;background:#fff;overflow:hidden;}
+.login .list ul{width:100%;height:240px;overflow:hidden;}
+.login .list ul li{width:230px;height:60px;overflow:hidden;padding-left:30px;}
+.login .list ul li:hover{background:#e4ecf4;}
+.login .list ul li a{width:190px;height:60px;overflow:hidden;padding-left:45px;background:url(../images/llh_home_iconBg1.png) 0 60px no-repeat;line-height:60px;display:block;font-size:20px;font-family:Microsoft Yahei;}
+.login .list ul li a:hover{color:#003473;}
+.login .list ul li.icon_01 a{background-position:-192px -297px;}
+.login .list ul li.icon_02 a{background-position:-192px -96px;}
+.login .list ul li.icon_03 a{background-position:-192px -144px;}
+.login .list ul li.icon_04 a{background-position:-190px -465px;}
+.login .list ul li.icon_01 a:hover{background-position:-193px -47px;}
+.login .list ul li.icon_02 a:hover{background-position:-192px -351px;}
+.login .list ul li.icon_03 a:hover{background-position:-192px -405px;}
+.login .list ul li.icon_04 a:hover{background-position:-190px -521px;} 
+.scollBtn{position:absolute;top:3%;right:0;width:30px;height:250px;z-index:102;}
+
+.contentDiv .textImg{width:100%;overflow:hidden;position:absolute;top:30%;left:0;}
+.contentDiv .textImg img{width:528px;height:208px;z-index:100;}
+.contentDiv .textImg span{width:150px;height:36px;line-height:36px;display:block;margin-top:-15px;z-index:101;}
+.contentDiv .textImg span a{width:122px;height:36px;padding-left:28px;display:block;text-align:center;color:#fff;font-size:16px;font-family:Microsoft Yahei;background:#1b62b9 url(../images/llh_home_iconBg1.png) 15px -270px no-repeat;}
+.contentDiv .text{width:100%;overflow:hidden;position:absolute;top:65%;left:0;}
+.contentDiv .text .kstd{width:50%;height:100%;overflow:hidden;font-family:Microsoft Yahei;}
+.contentDiv .text .kstd .tit{width:80%;height:40px;line-height:40px;font-size:18px;color:#004790;font-weight:bold;overflow:hidden;}
+.contentDiv .text .kstd .tit img{padding-left:2px;width:100px;height:auto;}
+.contentDiv .text .kstd ul{width:100%;height:130px;overflow:hidden;}
+.contentDiv .text .kstd ul li{width:86px;height:100px;float:left;padding-right:10px;}
+.contentDiv .text .kstd ul li a{color:#054493;font-size:14px;}
+.contentDiv .text .kstd ul li a img{width:50px;height:50px;padding: 3px 18px;}
+.contentDiv .text .kstd ul li a img.img{display:none;}
+.contentDiv .text .kstd ul li a p{width:86px;height:40px;text-align:center;line-height:40px;font-size:15px;}
+
+.img_bg{width:100%;margin:0 auto;height:100%; overflow:hidden;position: absolute;z-index: 98; bottom:0;right:0;}
+.pageBg2 .img_bg img{width:780px;height:auto;position:absolute;right:20%;bottom:-100px;}
+.pageBg3 .img_bg img{width:850px;height:auto;position:absolute;right:22%;bottom:-90px;}
+}
+/* 底部推荐 */
+.footerBar{width:100%;z-index:100;position:absolute;left:0;bottom:0;background:url(../images/llh_ft_bg.png) repeat;overflow:hidden;}
+.footerBar .models{width:100%;padding:10px 0;height:40px;overflow:hidden;position:relative;z-index:1000;}
+.footerBar .models a{display:inline-block;}
+.footerBar .models .model{overflow:hidden;height:100%;float:left;}
+.footerBar .models .w3{width:250px;padding-right:225px;}
+.footerBar .models .w4{width:220px;padding-right:100px;}
+.footerBar .models .mlast{float:right;padding-right:0;}
+
+.footerBar .models .micon{display:inline-block;float:left;width:45px;height:40px;background:url(../images/lh_ft_icon.png) no-repeat;}
+.footerBar .models .loc_01{background-position:0 0;}
+.footerBar .models .loc_02{background-position:0 -40px;}
+.footerBar .models .loc_03{background-position:0 -80px;}
+.footerBar .models .loc_11{background-position:0 -120px;}
+.footerBar .models .loc_12{background-position:0 -160px;}
+.footerBar .models .loc_13{background-position:0 -200px;}
+.footerBar .models .loc_14{background-position:0 -240px;}
+.footerBar .models .loc_21{background-position:0 -280px;}
+.footerBar .models .loc_22{background-position:0 -320px;}
+.footerBar .models .loc_23{background-position:0 -360px;}
+.footerBar .models .loc_24{background-position:0 -400px;}
+.footerBar .models .loc_31{background-position:0 -520px;}
+.footerBar .models .loc_32{background-position:0 -560px;}
+.footerBar .models .loc_33{background-position:0 -440px;}
+.footerBar .models .loc_34{background-position:0 -480px;}
+.footerBar .models dl{float:left;font-family:Microsoft Yahei;line-height:17px;}
+.footerBar .models dl dt{width:100%;height:23px;font-size:16px;color:#fff;}
+.footerBar .models dl dd{width:100%;height:17px;font-size:12px;color:#fff;}
+
+.indexFooter{width:100%;height:192px;position:absolute;left:0;bottom:0;overflow: hidden;z-index:100;}
+.indexFooter .footerBar1{width:100%;overflow:hidden;background:url(../images/llh_ft_bg.png) repeat;}
+.indexFooter .footerBar1 .ft_con1{width: 1200px;margin:0 auto;height:100%;overflow:hidden;padding:10px 0;}
+.indexFooter .ft_con1 .links_block1{float:left;width:148px;height:102px;padding-left:90px;display:inline;font-family:Microsoft Yahei;background:url(../images/llh_heart_ft_list.png) no-repeat;}
+.indexFooter .ft_con1 .linkbg1{background-position:60px 0;}
+.indexFooter .ft_con1 .linkbg2{background-position:60px -113px;}
+.indexFooter .ft_con1 .linkbg3{background-position:60px -226px;}
+.indexFooter .ft_con1 .linkbg4{background-position:60px -339px;}
+.indexFooter .ft_con1 .linkbg5{background-position:60px -452px;}
+.indexFooter .ft_con1 .links_block1 h2 {font-size:16px;margin-bottom:0;}
+.indexFooter .ft_con1 .links_block1 h2 a{color:#fff;font-weight:normal;}
+.indexFooter .ft_con1 .links_block1 ul{color:#fff;padding-top:5px;}
+.indexFooter .ft_con1 .links_block1 ul li{height:20px;line-height:20px;}
+.indexFooter .footerBar1 .ft_con1 .links_block1 ul li a{height:20px;line-height:20px;color:#fff;font-size:12px;}
+.footer_bottom {background:#003473;padding:10px 0;height:52px;}
+.footer_bottom .fixed_width{width:1200px;margin:0 auto;color:#fff;font-size:12px;padding-left:0px;overflow:hidden;} 
+.footer_bottom .footerlogodiv{float:left;width:250px;height:50px;display:inline-block;background:url(../images/trs_s_icons.png) no-repeat;} 
+.footer_bottom .footercondiv{float:left;width:590px;display:inline-block;background:url(../images/shanghaigongshang.png)  500px center no-repeat;} 
+.footer_bottom .fixed_width p{line-height:18px;}
+.footer_bottom .fixed_width p a{color:#fff;}
+.gongshang{width:65px;height:59px;display:inline-block;position:absolute;right:28px;top:0;}
